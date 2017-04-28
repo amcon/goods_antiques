@@ -1,3 +1,109 @@
 body {
   margin: 0;
+  background-color: black;
 }
+
+h1, p, a {
+  margin: 0;
+}
+
+.header {
+  height: 70px;
+  width: 90%;
+  background-color: white;
+  box-sizing: content-box;
+  padding: 0 5%;
+}
+
+    .header-logo {
+      height: 100%;
+      width: 300px;
+      color: black;
+      font-family: 'Libre Baskerville', serif;
+      float: left;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+        .header-logo img {
+          width: 100%;
+        }
+
+    nav {
+      height: 100%;
+      width: 500px;
+      float: right;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+        nav a {
+          color: black;
+          text-decoration: none;
+          font-family: 'Palanquin', sans-serif;
+          font-size: 13px;
+          letter-spacing: 3px;
+        }
+
+.main-container {
+  height: 650px;
+  width: 100%;
+  background-image: url('images/stock-antique.jpg');
+  background-size: 100%;
+  position: relative;
+}
+
+    .visit {
+      height: 450px;
+      width: 500px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: rgba(55, 55, 55, .4);
+      border-radius: 2%;
+    }
+
+        .visit h1 {
+          font-family: 'Libre Baskerville', serif;
+          font-size: 45px;
+          line-height: 60px;
+          color: white;
+          letter-spacing: 3px;
+        }
+
+        .visit p {
+          font-family: 'Palanquin', sans-serif;
+          color: white;
+          font-size: 25px;
+          margin: 5% 0 0 0;
+          letter-spacing: 1px;
+          line-height: 30px;
+        }
+
+        .visit button {
+          border: 1px solid white;
+          background-color: transparent;
+          color: white;
+          height: 60px;
+          width: 150px;
+          font-family: 'Libre Baskerville', serif;
+          margin: 10% 0 0 0;
+          font-size: 17px;
+          letter-spacing: 2px;
+        }
+
+        .visit button:hover {
+          background-color: rgba(255, 255, 255, .9);
+          color: black;
+          border: 1px solid black;
+          cursor: pointer;
+        }
