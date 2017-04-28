@@ -60,7 +60,7 @@ h1, h3, p, a {
   height: 650px;
   width: 100%;
   background-image: url('images/stock-antique.jpg');
-  background-size: 1500px;
+  background-size: 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
