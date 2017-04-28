@@ -41,18 +41,23 @@ h1, p, a {
     }
 
         nav a {
-          color: black;
+          color: rgb(120, 120, 120);
           text-decoration: none;
           font-family: 'Palanquin', sans-serif;
           font-size: 13px;
           letter-spacing: 3px;
+          font-weight: bolder;
+        }
+
+        nav a:hover {
+          color: black;
         }
 
 .main-container {
   height: 650px;
   width: 100%;
   background-image: url('images/stock-antique.jpg');
-  background-size: 150%;
+  background-size: 1500px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   position: relative;
@@ -109,3 +114,8 @@ h1, p, a {
           border: 1px solid black;
           cursor: pointer;
         }
+
+/*.footer {
+  height: 100px;
+  width: 100%;
+}*/
