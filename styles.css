@@ -1,9 +1,8 @@
 body {
   margin: 0;
-  background-color: black;
 }
 
-h1, p, a {
+h1, h3, p, a {
   margin: 0;
 }
 
@@ -53,7 +52,7 @@ h1, p, a {
           color: black;
         }
 
-.main-container {
+.home-page {
   height: 650px;
   width: 100%;
   background-image: url('images/stock-antique.jpg');
@@ -115,7 +114,67 @@ h1, p, a {
           cursor: pointer;
         }
 
-/*.footer {
-  height: 100px;
-  width: 100%;
-}*/
+.footer {
+  height: 150px;
+  width: 95%;
+  padding: 0 2.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+    .footer-info {
+      float: left;
+      height: 70%;
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+        .footer-item {
+          height: 80%;
+          width: 100px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          text-align: left;
+          margin-right: 40px;
+        }
+
+            .footer h3 {
+              font-family: 'Palanquin', sans-serif;
+              font-size: 12px;
+            }
+
+            .footer p {
+              font-family: 'Palanquin', sans-serif;
+              font-size: 10px;
+            }
+
+        #location {
+          margin-right: 30px;
+        }
+
+        #phone {
+          margin-right: 50px;
+        }
+
+        #email {
+          margin-right: 70px;
+        }
+
+    .icons {
+      float: right;
+      height: 100%;
+      width: 40%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+
+
