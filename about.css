@@ -56,10 +56,10 @@ h1, h3, p, a {
           color: black;
         }
 
-.home-page {
+.about-page {
   height: 650px;
   width: 100%;
-  background-image: url('images/stock-antique.jpg');
+  background-image: url('images/stock-cabin.jpg');
   background-size: 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -67,60 +67,6 @@ h1, h3, p, a {
   background-repeat: no-repeat;
   position: relative;
 }
-
-    .visit {
-      height: 450px;
-      width: 500px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      background-color: rgba(55, 55, 55, .4);
-      border-radius: 2%;
-    }
-
-        .visit h1 {
-          font-family: 'Libre Baskerville', serif;
-          font-size: 45px;
-          line-height: 60px;
-          color: white;
-          letter-spacing: 2px;
-        }
-
-        .visit p {
-          font-family: 'Palanquin', sans-serif;
-          color: white;
-          font-size: 22px;
-          margin: 5% 0 0 0;
-          letter-spacing: 1px;
-          line-height: 30px;
-        }
-
-        .visit a {
-          border: 1px solid white;
-          background-color: transparent;
-          color: white;
-          height: 60px;
-          width: 150px;
-          font-family: 'Libre Baskerville', serif;
-          margin: 10% 0 0 0;
-          font-size: 17px;
-          letter-spacing: 2px;
-          text-decoration: none;
-          line-height: 60px;
-        }
-
-        .visit a:hover {
-          background-color: rgba(255, 255, 255, .9);
-          color: black;
-          border: 1px solid black;
-          cursor: pointer;
-        }
 
 .footer {
   height: 150px;
@@ -173,7 +119,3 @@ h1, h3, p, a {
         #email {
           margin-right: 70px;
         }
-
-
-
-
