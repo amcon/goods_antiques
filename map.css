@@ -60,7 +60,7 @@ h1, h3, p, a {
   height: 650px;
   width: 100%;
   background-image: url('images/stock-cabin.jpg');
-  background-size: 100%;
+  background-size: 150%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -98,6 +98,7 @@ h1, h3, p, a {
             .contact-text h1 {
               font-family: 'Libre Baskerville', serif;
               letter-spacing: 2px;
+              font-weight: lighter;
               color: white;
               font-size: 35px;
             }
@@ -182,5 +183,5 @@ h1, h3, p, a {
         }
 
         #email {
-          margin-right: 70px;
+          margin-right: 100px;
         }
