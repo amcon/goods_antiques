@@ -57,7 +57,7 @@ h1, h3, p, a {
         }
 
 .about-page {
-  height: 650px;
+  height: 1000px;
   width: 100%;
   background-image: url('images/stock-shed.jpg');
   background-size: 150%;
@@ -69,7 +69,7 @@ h1, h3, p, a {
 }
 
     .about {
-      height: 400px;
+      height: 800px;
       width: 800px;
       padding: 0 40px;
       background-color: rgba(40, 40, 40, .3);
