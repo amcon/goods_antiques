@@ -59,6 +59,8 @@ h1, h3, p, a {
   background-size: 1500px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   position: relative;
 }
 
