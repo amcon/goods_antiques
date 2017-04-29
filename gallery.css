@@ -35,7 +35,7 @@ h1, h2, h3, p, a {
 
     nav {
       height: 100%;
-      width: 500px;
+      width: 40%;
       float: right;
       display: flex;
       flex-direction: row;
@@ -57,10 +57,9 @@ h1, h2, h3, p, a {
         }
 
 .gallery-page {
-  height: 1500px;
-  width: 95%;
+  width: 90%;
   margin-left: 2.5%;
-  padding: 2.5%;
+  padding: 2.5% 5%;
   background-color: white;
   box-sizing: border-box;
   border-top: 1px solid black;
@@ -70,19 +69,21 @@ h1, h2, h3, p, a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
 }
 
     .gallery-page h1 {
       display: block;
       height: 100px;
       width: 95%;
+      margin-bottom: 20px;
       font-family: 'Libre Baskerville', serif;
       font-size: 30px;
       line-height: 100px;
       text-align: center;
       letter-spacing: 3px;
       font-weight: lighter;
+      color: rgb(80, 80, 80);
     }
 
     .gallery-item {
@@ -91,21 +92,20 @@ h1, h2, h3, p, a {
       background-color: white;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
     }
 
         .gallery-item img {
           height: 320px;
           width: 100%;
-          box-sizing: border-box;
-          border: 1px solid black;
+/*          box-sizing: border-box;
+          border: 1px solid black;*/
         }
 
         .item-description {
           height: 105px;
-          width: 95%;
-          padding: 0 2.5%;
+          width: 100%;
           display: flex;
           flex-direction: row;
           justify-content: space-between;
@@ -113,9 +113,9 @@ h1, h2, h3, p, a {
         }
 
             .item-text {
-              width: 70%;
-              height: 90%;
-              margin-top: 10%;
+              width: 100%;
+              height: 98%;
+              margin-top: 2%;
               display: flex;
               flex-direction: column;
               justify-content: flex-start;
@@ -123,23 +123,14 @@ h1, h2, h3, p, a {
             }
 
                 .item-text h2 {
-                  font-family: 'Libre Baskerville', sans-serif;
+                  font-family: 'Palanquin', sans-serif;
+                  font-size: 20px;
                 }
 
-                .item-text p {
+                .item-text h3 {
                   font-family: 'Palanquin', sans-serif;
-                }
-
-            .price {
-              width: 13%;
-              height: 90%;
-              margin-top: 10%;
-              display: flex;
-              align-items: flex-start;
-            }
-
-                .price h3 {
-                  font-family: 'Palanquin', sans-serif;
+                  font-size: 15px;
+                  margin-top: -1%;
                 }
 
 .footer {
