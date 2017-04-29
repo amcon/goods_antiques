@@ -324,3 +324,7 @@ h1, h2, h3, p, a {
         #email {
           margin-right: 100px;
         }
+
+        #email:hover, #facebook:hover, #instagram:hover {
+          cursor: pointer;
+        }

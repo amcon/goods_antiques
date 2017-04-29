@@ -28,6 +28,18 @@ $(function() {
     $('.gallery-modal').removeClass('modal-activate');
   });
 
+  $('#email').click(function(event) {
+    window.open("mailto:goodsantiqueswisconsin@gmail.com?subject=After visiting your website...", "_blank");
+  });
+
+  $('#facebook').click(function(event) {
+    window.open("https://www.facebook.com/goodsantiques", "_blank");
+  });
+
+  $('#instagram').click(function(event) {
+    window.open("https://www.instagram.com/goodsantiques", "_blank");
+  });
+
 
   myMap();
 
