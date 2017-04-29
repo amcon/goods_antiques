@@ -183,10 +183,29 @@ h1, h3, p, a {
 
 
 
+
+
+
 @media only screen
 and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: portrait) {
+
+.header {
+  height: 120px;
+}
+
+.header-logo {
+  width: 350px;
+}
+
+nav {
+  width: 50%;
+}
+
+nav a {
+  font-size: 18px;
+}
 
 .home-page {
   background-size: 205%;
@@ -214,6 +233,22 @@ and (orientation: portrait) {
   width: 200px;
   line-height: 80px;
   font-size: 25px;
+}
+
+.footer {
+  height: 175px;
+}
+
+.footer-item {
+  width: 115px;
+}
+
+.footer h3 {
+  font-size: 15px;
+}
+
+.footer p {
+  font-size: 12px;
 }
 
 }
@@ -230,6 +265,22 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation: portrait) {
 
+.header {
+  height: 120px;
+}
+
+.header-logo {
+  width: 350px;
+}
+
+nav {
+  width: 50%;
+}
+
+nav a {
+  font-size: 18px;
+}
+
 .home-page {
   background-size: 205%;
   background-attachment: initial;
@@ -256,6 +307,22 @@ and (orientation: portrait) {
   width: 200px;
   line-height: 80px;
   font-size: 25px;
+}
+
+.footer {
+  height: 175px;
+}
+
+.footer-item {
+  width: 115px;
+}
+
+.footer h3 {
+  font-size: 15px;
+}
+
+.footer p {
+  font-size: 12px;
 }
 
 }
@@ -272,6 +339,22 @@ and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: portrait) {
 
+.header {
+  height: 120px;
+}
+
+.header-logo {
+  width: 350px;
+}
+
+nav {
+  width: 50%;
+}
+
+nav a {
+  font-size: 18px;
+}
+
 .home-page {
   background-size: 205%;
   background-attachment: initial;
@@ -298,6 +381,22 @@ and (orientation: portrait) {
   width: 200px;
   line-height: 80px;
   font-size: 25px;
+}
+
+.footer {
+  height: 175px;
+}
+
+.footer-item {
+  width: 115px;
+}
+
+.footer h3 {
+  font-size: 15px;
+}
+
+.footer p {
+  font-size: 12px;
 }
 
 }
