@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-h1, h3, p, a {
+h1, h2, h3, p, a {
   margin: 0;
 }
 
@@ -58,7 +58,9 @@ h1, h3, p, a {
 
 .gallery-page {
   height: 1500px;
-  width: 100%;
+  width: 95%;
+  margin-left: 2.5%;
+  padding: 2.5%;
   background-color: white;
   box-sizing: border-box;
   border-top: 1px solid black;
@@ -72,11 +74,60 @@ h1, h3, p, a {
 }
 
     .gallery-item {
-      height: 450px;
+      height: 455px;
       width: 350px;
-      border: 1px solid black;
       background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
+
+        .gallery-item img {
+          height: 350px;
+          width: 100%;
+          box-sizing: border-box;
+          border: 1px solid black;
+        }
+
+        .item-description {
+          height: 105px;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+        }
+
+            .item-text {
+              width: 70%;
+              height: 90%;
+              margin-top: 10%;
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+              align-items: flex-start;
+            }
+
+                .item-text h2 {
+                  font-family: 'Libre Baskerville', sans-serif;
+                }
+
+                .item-text p {
+                  font-family: 'Palanquin', sans-serif;
+                }
+
+            .price {
+              width: 10%;
+              height: 90%;
+              margin-top: 10%;
+              display: flex;
+              align-items: flex-start;
+            }
+
+                .price h3 {
+                  font-family: 'Palanquin', sans-serif;
+                }
 
 .footer {
   height: 150px;
