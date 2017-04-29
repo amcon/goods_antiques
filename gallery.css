@@ -131,6 +131,7 @@ h1, h2, h3, p, a {
                   font-family: 'Libre Baskerville', serif;
                   font-size: 18px;
                   color: rgb(80, 80, 80);
+                  margin-top: 1%;
                 }
 
                 .item-text h3 {
