@@ -249,6 +249,44 @@ nav a {
   font-size: 18px;
 }
 
+.about-page {
+  height: 3100px;
+  background-attachment: initial;
+  background-size: 480%;
+}
+
+.about {
+  height: 100%;
+  width: 90%;
+  padding: 0 5%;
+}
+
+.about h1 {
+  font-size: 55px;
+  margin-top: 50px;
+}
+
+.about p {
+  font-size: 25px;
+}
+
+.family {
+  height: 2000px;
+}
+
+.family h1 {
+  font-size: 55px;
+  margin: 100px 0 75px 0;
+}
+
+.family-text p {
+  font-size: 20px;
+}
+
+.family-left, .family-right {
+  height: 350px;
+}
+
 .footer {
   height: 175px;
 }
@@ -295,6 +333,44 @@ nav a {
   font-size: 18px;
 }
 
+.about-page {
+  height: 3100px;
+  background-attachment: initial;
+  background-size: 480%;
+}
+
+.about {
+  height: 100%;
+  width: 90%;
+  padding: 0 5%;
+}
+
+.about h1 {
+  font-size: 55px;
+  margin-top: 50px;
+}
+
+.about p {
+  font-size: 25px;
+}
+
+.family {
+  height: 2000px;
+}
+
+.family h1 {
+  font-size: 55px;
+  margin: 100px 0 75px 0;
+}
+
+.family-text p {
+  font-size: 20px;
+}
+
+.family-left, .family-right {
+  height: 350px;
+}
+
 .footer {
   height: 175px;
 }
@@ -339,6 +415,44 @@ nav {
 
 nav a {
   font-size: 18px;
+}
+
+.about-page {
+  height: 3100px;
+  background-attachment: initial;
+  background-size: 480%;
+}
+
+.about {
+  height: 100%;
+  width: 90%;
+  padding: 0 5%;
+}
+
+.about h1 {
+  font-size: 55px;
+  margin-top: 50px;
+}
+
+.about p {
+  font-size: 25px;
+}
+
+.family {
+  height: 2000px;
+}
+
+.family h1 {
+  font-size: 55px;
+  margin: 100px 0 75px 0;
+}
+
+.family-text p {
+  font-size: 20px;
+}
+
+.family-left, .family-right {
+  height: 350px;
 }
 
 .footer {
