@@ -90,7 +90,7 @@ h1, h2, h3, p, a {
     }
 
     .gallery-item {
-      height: 455px;
+      height: 420px;
       width: 320px;
       background-color: white;
       display: flex;
