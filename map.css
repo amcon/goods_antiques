@@ -233,6 +233,8 @@ nav a {
   height: 50%;
   width: 80%;
   border-right: none;
+  justify-content: flex-start;
+  margin-top: 50px;
 }
 
 .contact-text h1 {
@@ -321,6 +323,8 @@ nav a {
   height: 50%;
   width: 80%;
   border-right: none;
+  justify-content: flex-start;
+  margin-top: 50px;
 }
 
 .contact-text h1 {
@@ -409,6 +413,8 @@ nav a {
   height: 50%;
   width: 80%;
   border-right: none;
+  justify-content: flex-start;
+  margin-top: 50px;
 }
 
 .contact-text h1 {
