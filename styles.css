@@ -183,3 +183,130 @@ h1, h3, p, a {
 
 
 
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: portrait) {
+
+.home-page {
+  background-size: 205%;
+  background-attachment: initial;
+  height: 1500px;
+}
+
+.visit {
+  height: 800px;
+  width: 700px;
+}
+
+.visit h1 {
+  font-size: 65px;
+  line-height: 90px;
+}
+
+.visit p {
+  font-size: 45px;
+  line-height: 60px;
+}
+
+.visit a {
+  height: 80px;
+  width: 200px;
+  line-height: 80px;
+  font-size: 25px;
+}
+
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: landscape) {
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: portrait) {
+
+.home-page {
+  background-size: 205%;
+  background-attachment: initial;
+  height: 1500px;
+}
+
+.visit {
+  height: 800px;
+  width: 700px;
+}
+
+.visit h1 {
+  font-size: 65px;
+  line-height: 90px;
+}
+
+.visit p {
+  font-size: 45px;
+  line-height: 60px;
+}
+
+.visit a {
+  height: 80px;
+  width: 200px;
+  line-height: 80px;
+  font-size: 25px;
+}
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: landscape) {
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: portrait) {
+
+.home-page {
+  background-size: 205%;
+  background-attachment: initial;
+  height: 1500px;
+}
+
+.visit {
+  height: 800px;
+  width: 700px;
+}
+
+.visit h1 {
+  font-size: 65px;
+  line-height: 90px;
+}
+
+.visit p {
+  font-size: 45px;
+  line-height: 60px;
+}
+
+.visit a {
+  height: 80px;
+  width: 200px;
+  line-height: 80px;
+  font-size: 25px;
+}
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: landscape) {
+
+}
+
+

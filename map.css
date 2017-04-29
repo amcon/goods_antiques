@@ -86,7 +86,7 @@ h1, h3, p, a {
 
         .contact-text {
           height: 90%;
-          width: 400px;
+          width: 40%;
           border-right: 1px solid white;
           text-align: center;
           display: flex;
@@ -131,7 +131,7 @@ h1, h3, p, a {
 
         #map {
           height: 400px;
-          width: 500px;
+          width: 50%;
         }
 
 .footer {
@@ -189,3 +189,65 @@ h1, h3, p, a {
         #email:hover, #facebook:hover, #instagram:hover {
           cursor: pointer;
         }
+
+
+
+
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: portrait) {
+
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: landscape) {
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: portrait) {
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: landscape) {
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: portrait) {
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: landscape) {
+
+}
+
+
+
+
+
+
+
+@media only screen
+and (min-device-width : 900px)
+and (max-device-width : 1050px) {
+
+  .contact {
+    width: 850px;
+  }
+
+}
