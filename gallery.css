@@ -12,6 +12,8 @@ h1, h2, h3, p, a {
   background-color: white;
   box-sizing: content-box;
   padding: 0 5%;
+  position: relative;
+  z-index: 1;
 }
 
     .header-logo {
@@ -197,6 +199,30 @@ h1, h2, h3, p, a {
               font-size: 30px;
             }
 
+        .purchase {
+          height: 100px;
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+        }
+
+            .purchase button {
+              height: 40px;
+              width: 80px;
+              box-sizing: border-box;
+              border: 1px solid black;
+              background-color: transparent;
+              font-size: 18px;
+              font-family: 'Libre Baskerville', serif;
+            }
+
+            .purchase button:hover {
+              border: none;
+              background-color: rgb(106, 165, 91);
+              color: white;
+            }
+
         .back {
           height: 50px;
           width: 100%;
@@ -230,6 +256,8 @@ h1, h2, h3, p, a {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
     .footer-info {
