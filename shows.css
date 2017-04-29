@@ -76,7 +76,7 @@ h1, h3, p, a {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: flex-start;
       align-items: flex-start;
     }
 
@@ -95,7 +95,8 @@ h1, h3, p, a {
 
         .show {
           height: 400px;
-          width: 31%;
+          width: 30%;
+          margin: 0 1.666%;
           display: flex;
           flex-direction: column;
           justify-content: flex-start;
