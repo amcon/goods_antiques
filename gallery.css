@@ -73,6 +73,18 @@ h1, h2, h3, p, a {
   align-items: center;
 }
 
+    .gallery-page h1 {
+      display: block;
+      height: 100px;
+      width: 95%;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 30px;
+      line-height: 100px;
+      text-align: center;
+      letter-spacing: 3px;
+      font-weight: lighter;
+    }
+
     .gallery-item {
       height: 455px;
       width: 350px;
@@ -92,10 +104,11 @@ h1, h2, h3, p, a {
 
         .item-description {
           height: 105px;
-          width: 100%;
+          width: 95%;
+          padding: 0 2.5%;
           display: flex;
           flex-direction: row;
-          justify-content: space-around;
+          justify-content: space-between;
           align-items: center;
         }
 
