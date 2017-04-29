@@ -225,6 +225,7 @@ nav a {
   height: 100%;
   width: 100%;
   flex-direction: column-reverse;
+  justify-content: center;
   padding: 0;
 }
 
@@ -232,7 +233,6 @@ nav a {
   height: 50%;
   width: 80%;
   border-right: none;
-  border-top: 1px solid white;
 }
 
 .contact-text h1 {
@@ -313,6 +313,7 @@ nav a {
   height: 100%;
   width: 100%;
   flex-direction: column-reverse;
+  justify-content: center;
   padding: 0;
 }
 
@@ -320,7 +321,6 @@ nav a {
   height: 50%;
   width: 80%;
   border-right: none;
-  border-top: 1px solid white;
 }
 
 .contact-text h1 {
@@ -401,6 +401,7 @@ nav a {
   height: 100%;
   width: 100%;
   flex-direction: column-reverse;
+  justify-content: center;
   padding: 0;
 }
 
@@ -408,7 +409,6 @@ nav a {
   height: 50%;
   width: 80%;
   border-right: none;
-  border-top: 1px solid white;
 }
 
 .contact-text h1 {
