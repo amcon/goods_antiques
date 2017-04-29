@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+}
+
+h1, h3, p, a {
+  margin: 0;
+}
+
+.header {
+  height: 70px;
+  width: 90%;
+  background-color: white;
+  box-sizing: content-box;
+  padding: 0 5%;
+}
+
+    .header-logo {
+      height: 100%;
+      width: 300px;
+      color: black;
+      font-family: 'Libre Baskerville', serif;
+      float: left;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .header-logo:hover{
+      cursor: pointer;
+    }
+
+        .header-logo img {
+          width: 100%;
+        }
+
+    nav {
+      height: 100%;
+      width: 40%;
+      float: right;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+        nav a {
+          color: rgb(120, 120, 120);
+          text-decoration: none;
+          font-family: 'Palanquin', sans-serif;
+          font-size: 13px;
+          letter-spacing: 3px;
+          font-weight: bolder;
+        }
+
+        nav a:hover {
+          color: black;
+        }
+
+.shows-page {
+  height: 650px;
+  width: 100%;
+  background-color: black;
+}
+
+.footer {
+  height: 150px;
+  width: 95%;
+  padding: 0 2.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+    .footer-info {
+      float: left;
+      height: 70%;
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+        .footer-item {
+          height: 80%;
+          width: 100px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          text-align: left;
+          margin-right: 40px;
+        }
+
+            .footer h3 {
+              font-family: 'Palanquin', sans-serif;
+              font-size: 12px;
+            }
+
+            .footer p {
+              font-family: 'Palanquin', sans-serif;
+              font-size: 10px;
+            }
+
+        #location {
+          margin-right: 30px;
+        }
+
+        #phone {
+          margin-right: 50px;
+        }
+
+        #email {
+          margin-right: 100px;
+        }
+
