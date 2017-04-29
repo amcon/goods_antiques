@@ -75,6 +75,26 @@ h1, h2, h3, p, a {
   z-index: 1;
 }
 
+    .gallery-nav {
+      height: 50px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+        .gallery-nav p, .gallery-nav a {
+          text-decoration: none;
+          color: rgb(120, 120, 120);
+          font-family: 'Palanquin', sans-serif;
+          letter-spacing: 2px;
+          margin: 0 10px;
+        }
+
+        .gallery-nav a:hover {
+          color: black;
+        }
+
     .gallery-page h1 {
       display: block;
       height: 100px;
