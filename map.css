@@ -222,14 +222,15 @@ nav a {
 }
 
 .contact {
-  height: 1100px;
-  width: 800px;
+  height: 100%;
+  width: 100%;
   flex-direction: column-reverse;
   padding: 0;
 }
 
 .contact-text {
   height: 55%;
+  width: 80%;
   border-right: none;
   border-top: 1px solid white;
 }
@@ -308,14 +309,15 @@ nav a {
 }
 
 .contact {
-  height: 1100px;
-  width: 800px;
+  height: 100%;
+  width: 100%;
   flex-direction: column-reverse;
   padding: 0;
 }
 
 .contact-text {
   height: 55%;
+  width: 80%;
   border-right: none;
   border-top: 1px solid white;
 }
@@ -394,14 +396,15 @@ nav a {
 }
 
 .contact {
-  height: 1100px;
-  width: 800px;
+  height: 100%;
+  width: 100%;
   flex-direction: column-reverse;
   padding: 0;
 }
 
 .contact-text {
   height: 55%;
+  width: 80%;
   border-right: none;
   border-top: 1px solid white;
 }
