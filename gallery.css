@@ -87,7 +87,7 @@ h1, h2, h3, p, a {
 
     .gallery-item {
       height: 455px;
-      width: 350px;
+      width: 320px;
       background-color: white;
       display: flex;
       flex-direction: column;
@@ -96,7 +96,7 @@ h1, h2, h3, p, a {
     }
 
         .gallery-item img {
-          height: 350px;
+          height: 320px;
           width: 100%;
           box-sizing: border-box;
           border: 1px solid black;
@@ -131,7 +131,7 @@ h1, h2, h3, p, a {
                 }
 
             .price {
-              width: 10%;
+              width: 13%;
               height: 90%;
               margin-top: 10%;
               display: flex;
