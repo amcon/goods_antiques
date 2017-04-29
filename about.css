@@ -287,6 +287,10 @@ nav a {
   height: 350px;
 }
 
+.family-left img, .family-right img {
+  height: 225px;
+}
+
 .footer {
   height: 175px;
 }
@@ -371,6 +375,10 @@ nav a {
   height: 350px;
 }
 
+.family-left img, .family-right img {
+  height: 225px;
+}
+
 .footer {
   height: 175px;
 }
@@ -453,6 +461,10 @@ nav a {
 
 .family-left, .family-right {
   height: 350px;
+}
+
+.family-left img, .family-right img {
+  height: 225px;
 }
 
 .footer {
