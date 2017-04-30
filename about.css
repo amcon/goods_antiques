@@ -57,7 +57,7 @@ h1, h3, p, a {
         }
 
 .about-page {
-  height: 2700px;
+  height: 2900px;
   width: 100%;
   background-image: url('images/stock-shed.jpg');
   background-size: 150%;
@@ -69,7 +69,7 @@ h1, h3, p, a {
 }
 
     .about {
-      height: 2500px;
+      height: 2750px;
       width: 800px;
       padding: 0 40px;
       background-color: rgba(40, 40, 40, .7);
@@ -100,7 +100,7 @@ h1, h3, p, a {
         }
 
     .family {
-      height: 1700px;
+      height: 1900px;
       width: 100%;
     }
 
