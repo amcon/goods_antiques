@@ -121,6 +121,7 @@ h1, h2, h3, p, a {
 
         .item {
           width: 100%;
+          margin-bottom: 10px;
         }
 
         .item:hover {
