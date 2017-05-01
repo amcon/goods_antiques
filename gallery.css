@@ -322,6 +322,7 @@ h1, h2, h3, p, a {
 
         #phone {
           margin-right: 50px;
+          width: 120px;
         }
 
 /*        #email {
