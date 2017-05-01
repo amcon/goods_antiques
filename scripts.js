@@ -2,15 +2,20 @@ $(function() {
 
   console.log('Its lit');
 
+  var mapOptions;
+  var map;
+  var marker;
+
+
   function myMap() {
-    var mapOptions = {
+    mapOptions = {
         center: new google.maps.LatLng(42.784743, -88.414086),
         zoom: 15,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     }
 
-    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-    var marker = new google.maps.Marker({position: new google.maps.LatLng(42.784743, -88.414086)});
+    map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    marker = new google.maps.Marker({position: new google.maps.LatLng(42.784743, -88.414086)});
 
     marker.setMap(map);
   };
