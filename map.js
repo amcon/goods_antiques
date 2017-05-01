@@ -1,15 +1,16 @@
 $(function() {
 
-// if (typeof google === 'object' && typeof google.maps === 'object') {
-//         myMap();
-//     } else {
-//         var script = document.createElement("script");
-//         script.type = "text/javascript";
-//         script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCclpY08qe8sctwyeXiMnSeYFjDKITLnSQ&callback=myMap";
-//         document.body.appendChild(script);
-//     }
+    initialize();
 
-myMap();
+function initialize() {
+  if (typeof google === 'object' && typeof google.maps === 'object') {
+        myMap();
+    } else {
+      $('map').css('background-color', 'white');
+    };
+};
+
+
 
   var mapOptions;
   var map;
