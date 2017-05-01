@@ -2,6 +2,10 @@ $(function() {
 
   console.log('Its lit');
 
+  if (typeof google === 'object' && typeof google.maps === 'object') {
+        myMap();
+    };
+
   var mapOptions;
   var map;
   var marker;
@@ -44,8 +48,5 @@ $(function() {
   $('#instagram').click(function(event) {
     window.open("https://www.instagram.com/goodsantiques", "_blank");
   });
-
-
-  myMap();
 
 });
