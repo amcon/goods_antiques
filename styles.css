@@ -46,7 +46,7 @@ h1, h3, p, a {
         nav a {
           color: rgb(120, 120, 120);
           text-decoration: none;
-          font-family: 'Palanquin', sans-serif;
+          font-family: 'Open Sans', sans-serif;
           font-size: 13px;
           letter-spacing: 3px;
           font-weight: bolder;
@@ -93,7 +93,7 @@ h1, h3, p, a {
         }
 
         .visit p {
-          font-family: 'Palanquin', sans-serif;
+          font-family: 'Open Sans', sans-serif;
           color: white;
           font-size: 22px;
           margin: 5% 0 0 0;
@@ -153,14 +153,18 @@ h1, h3, p, a {
         }
 
             .footer h3 {
-              font-family: 'Palanquin', sans-serif;
+              font-family: 'Open Sans', sans-serif;
               font-size: 12px;
             }
 
             .footer p {
-              font-family: 'Palanquin', sans-serif;
+              font-family: 'Open Sans', sans-serif;
               font-size: 10px;
             }
+
+        #hours {
+          width: 110px;
+        }
 
         #location {
           margin-right: 30px;

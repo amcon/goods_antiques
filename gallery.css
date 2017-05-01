@@ -48,7 +48,7 @@ h1, h2, h3, p, a {
         nav a {
           color: rgb(120, 120, 120);
           text-decoration: none;
-          font-family: 'Palanquin', sans-serif;
+          font-family: 'Open Sans', sans-serif;
           font-size: 13px;
           letter-spacing: 3px;
           font-weight: bolder;
@@ -86,7 +86,7 @@ h1, h2, h3, p, a {
         .gallery-nav p, .gallery-nav a {
           text-decoration: none;
           color: rgb(120, 120, 120);
-          font-family: 'Palanquin', sans-serif;
+          font-family: 'Open Sans', sans-serif;
           letter-spacing: 2px;
           margin: 0 10px;
         }
@@ -156,9 +156,10 @@ h1, h2, h3, p, a {
                 }
 
                 .item-text h3 {
-                  font-family: 'Palanquin', sans-serif;
+                  font-family: 'Open Sans', sans-serif;
                   font-size: 15px;
                   margin-top: -1%;
+                  color: rgb(80, 80, 80);
                 }
 
 .gallery-modal {
@@ -212,13 +213,13 @@ h1, h2, h3, p, a {
             }
 
             .modal-text p {
-              font-family: 'Palanquin', sans-serif;
+              font-family: 'Open Sans', sans-serif;
               font-size: 15px;
               margin-bottom: 10px;
             }
 
             .modal-text h2 {
-              font-family: 'Palanquin', sans-serif;
+              font-family: 'Open Sans', sans-serif;
               font-size: 30px;
             }
 
@@ -305,12 +306,12 @@ h1, h2, h3, p, a {
         }
 
             .footer h3 {
-              font-family: 'Palanquin', sans-serif;
+              font-family: 'Open Sans', sans-serif;
               font-size: 12px;
             }
 
             .footer p {
-              font-family: 'Palanquin', sans-serif;
+              font-family: 'Open Sans', sans-serif;
               font-size: 10px;
             }
 
