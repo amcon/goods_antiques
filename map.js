@@ -8,7 +8,7 @@ setTimeout(function() {
       $('#map').css('background-color', 'white');
       console.log('map did not load');
     };
-}, 500);
+}, 1000);
 
 
 
