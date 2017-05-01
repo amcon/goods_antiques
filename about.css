@@ -216,9 +216,9 @@ h1, h3, p, a {
           margin-right: 50px;
         }
 
-        #email {
+/*        #email {
           margin-right: 100px;
-        }
+        }*/
 
         #email:hover, #facebook:hover, #instagram:hover {
           cursor: pointer;
@@ -251,9 +251,9 @@ nav a {
 }
 
 .about-page {
-  height: 3100px;
+  height: 3250px;
   background-attachment: initial;
-  background-size: 480%;
+  background-size: 500%;
 }
 
 .about {
@@ -339,9 +339,9 @@ nav a {
 }
 
 .about-page {
-  height: 3100px;
+  height: 3250px;
   background-attachment: initial;
-  background-size: 480%;
+  background-size: 500%;
 }
 
 .about {
@@ -427,9 +427,9 @@ nav a {
 }
 
 .about-page {
-  height: 3100px;
+  height: 3250px;
   background-attachment: initial;
-  background-size: 480%;
+  background-size: 500%;
 }
 
 .about {

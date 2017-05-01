@@ -174,9 +174,9 @@ h1, h3, p, a {
           margin-right: 50px;
         }
 
-        #email {
+/*        #email {
           margin-right: 100px;
-        }
+        }*/
 
         #email:hover, #facebook:hover, #instagram:hover {
           cursor: pointer;
