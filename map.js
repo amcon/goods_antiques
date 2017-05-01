@@ -3,10 +3,10 @@ $(function() {
 setTimeout(function() {
   if (typeof google === 'object' && typeof google.maps === 'object') {
       myMap();
-      console.log('i fired');
+      console.log('map loaded');
     } else {
       $('#map').css('background-color', 'white');
-      console.log('i fired');
+      console.log('map did not load');
     };
 }, 500);
 
