@@ -216,6 +216,7 @@ h1, h2, h3, p, a {
               font-family: 'Open Sans', sans-serif;
               font-size: 15px;
               margin-bottom: 10px;
+              line-height: 25px;
             }
 
             .modal-text h2 {

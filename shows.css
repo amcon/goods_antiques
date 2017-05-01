@@ -46,7 +46,7 @@ h1, h3, p, a {
         nav a {
           color: rgb(120, 120, 120);
           text-decoration: none;
-          font-family: 'Palanquin', sans-serif;
+          font-family: 'Open Sans', sans-serif;
           font-size: 13px;
           letter-spacing: 3px;
           font-weight: bolder;
@@ -124,9 +124,12 @@ h1, h3, p, a {
             }
 
             .show p {
-              font-family: 'Palanquin', sans-serif;
+              font-family: 'Open Sans', sans-serif;
               font-size: 18px;
               margin-bottom: 10px;
+              font-weight: lighter;
+              color: rgb(80, 80, 80);
+              line-height: 30px;
             }
 
         .past-show {
@@ -191,12 +194,12 @@ h1, h3, p, a {
         }
 
             .footer h3 {
-              font-family: 'Palanquin', sans-serif;
+              font-family: 'Open Sans', sans-serif;
               font-size: 12px;
             }
 
             .footer p {
-              font-family: 'Palanquin', sans-serif;
+              font-family: 'Open Sans', sans-serif;
               font-size: 10px;
             }
 
