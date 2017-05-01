@@ -1,14 +1,14 @@
 $(function() {
 
-    initialize();
-
-function initialize() {
+setTimeout(function() {
   if (typeof google === 'object' && typeof google.maps === 'object') {
-        myMap();
+      myMap();
+      console.log('i fired');
     } else {
-      $('map').css('background-color', 'white');
+      $('#map').css('background-color', 'white');
+      console.log('i fired');
     };
-};
+}, 500);
 
 
 
