@@ -9,6 +9,8 @@ $(function() {
 //         document.body.appendChild(script);
 //     }
 
+myMap();
+
   var mapOptions;
   var map;
   var marker;
