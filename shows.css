@@ -126,7 +126,7 @@ h1, h2, h3, p, a {
 
             .show p {
               font-family: 'Open Sans', sans-serif;
-              font-size: 18px;
+              font-size: 15px;
               margin-bottom: 10px;
               font-weight: lighter;
               color: rgb(80, 80, 80);
@@ -159,7 +159,6 @@ h1, h2, h3, p, a {
             .past-show h3 {
               font-family: 'Libre Baskerville', serif;
               color: rgb(212,175,55);
-              margin-bottom: 10px;
               font-size: 12px;
               letter-spacing: 3px;
             }
