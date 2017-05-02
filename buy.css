@@ -57,7 +57,7 @@ h1, h3, p, a {
         }
 
 .buy-page {
-  height: 700px;
+  height: 900px;
   width: 95%;
   margin: 0 2.5% 0 2.5%;
   padding: 5%;
@@ -68,7 +68,7 @@ h1, h3, p, a {
 
     .buy-page h1 {
       font-family: 'Libre Baskerville', serif;
-      margin-bottom: 40px;
+      margin-bottom: 60px;
       letter-spacing: 2px;
       font-weight: lighter;
     }
@@ -86,10 +86,10 @@ h1, h3, p, a {
     .buy-page p {
       font-family: 'Open Sans', sans-serif;
       font-size: 15px;
-      margin-bottom: 40px;
+      margin-bottom: 60px;
       margin-left: 40px;
       display: block;
-      width: 90%;
+      width: 85%;
       color: rgb(60, 60, 60);
     }
 
