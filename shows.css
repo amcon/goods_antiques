@@ -105,16 +105,16 @@ h1, h2, h3, p, a {
 
             .show h2 {
               font-family: 'Libre Baskerville', serif;
-              font-size: 35px;
+              font-size: 30px;
               color: rgb(212,175,55);
-              margin: 40px 0 10px 0;
+              margin: 40px 0 20px 0;
             }
 
             .show h3 {
               font-family: 'Libre Baskerville', serif;
               color: rgb(212,175,55);
-              margin-bottom: 20px;
-              font-size: 22px;
+              margin-bottom: 18px;
+              font-size: 15px;
               letter-spacing: 3px;
             }
 
