@@ -68,7 +68,7 @@ h1, h3, p, a {
 
     .buy-page h1 {
       font-family: 'Libre Baskerville', serif;
-      margin-bottom: 60px;
+      margin-bottom: 40px;
       letter-spacing: 2px;
       font-weight: lighter;
     }
@@ -91,6 +91,10 @@ h1, h3, p, a {
       display: block;
       width: 85%;
       color: rgb(60, 60, 60);
+    }
+
+    #disclaimer {
+      margin-bottom: 60px;
     }
 
     .buy-page a {
