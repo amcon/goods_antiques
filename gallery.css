@@ -232,7 +232,7 @@ h1, h2, h3, p, a {
           align-items: flex-end;
         }
 
-            .purchase button {
+            .purchase a {
               height: 40px;
               width: 80px;
               box-sizing: border-box;
@@ -240,9 +240,13 @@ h1, h2, h3, p, a {
               background-color: transparent;
               font-size: 18px;
               font-family: 'Libre Baskerville', serif;
+              line-height: 40px;
+              text-align: center;
+              text-decoration: none;
+              color: black;
             }
 
-            .purchase button:hover {
+            .purchase a:hover {
               border: none;
               background-color: rgb(106, 165, 91);
               color: white;
@@ -553,7 +557,7 @@ and (max-device-width : 2100px) {
     line-height: 30px;
   }
 
-  .purchase button {
+  .purchase a {
     height: 60px;
     width: 100px;
     font-size: 23px;
@@ -596,7 +600,7 @@ and (max-device-width : 2500px) {
     line-height: 40px;
   }
 
-  .purchase button {
+  .purchase a {
     height: 80px;
     width: 120px;
     font-size: 26px;
