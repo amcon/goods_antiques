@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-h1, h3, p, a {
+h1, h2, h3, p, a {
   margin: 0;
 }
 
@@ -107,12 +107,13 @@ h1, h3, p, a {
               font-family: 'Libre Baskerville', serif;
               font-size: 35px;
               color: rgb(212,175,55);
+              margin: 40px 0 10px 0;
             }
 
             .show h3 {
               font-family: 'Libre Baskerville', serif;
               color: rgb(212,175,55);
-              margin-bottom: 10px;
+              margin-bottom: 20px;
               font-size: 22px;
               letter-spacing: 3px;
             }
@@ -120,7 +121,7 @@ h1, h3, p, a {
             .show h4 {
               font-family: 'Libre Baskerville', serif;
               letter-spacing: 1px;
-              margin-top: 40px;
+              margin-top: 20px;
             }
 
             .show p {
@@ -146,6 +147,7 @@ h1, h3, p, a {
               font-family: 'Libre Baskerville', serif;
               font-size: 18px;
               color: rgb(212,175,55);
+              margin-bottom: 10px;
             }
 
             .past-show h3 {
