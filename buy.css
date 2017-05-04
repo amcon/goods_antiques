@@ -57,7 +57,7 @@ h1, h3, p, a {
         }
 
 .buy-page {
-  height: 1000px;
+  height: 1050px;
   width: 95%;
   margin: 0 2.5% 0 2.5%;
   padding: 5%;
@@ -94,7 +94,11 @@ h1, h3, p, a {
     }
 
     #disclaimer {
-      margin-bottom: 60px;
+      margin-bottom: 40px;
+    }
+
+    #faq {
+      margin-top: 80px;
     }
 
     .buy-page a {
