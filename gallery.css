@@ -76,19 +76,32 @@ h1, h2, h3, p, a {
 }
 
     .gallery-nav {
-      height: 50px;
+      height: 150px;
       width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
     }
+
+        .nav-section {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
 
         .gallery-nav p, .gallery-nav a {
           text-decoration: none;
           color: rgb(120, 120, 120);
           font-family: 'Open Sans', sans-serif;
           letter-spacing: 2px;
-          margin: 0 10px;
+          margin: 0 20px;
+          font-size: 13px;
+        }
+
+        #selected {
+          color: black;
         }
 
         .gallery-nav a:hover {
@@ -99,7 +112,8 @@ h1, h2, h3, p, a {
       display: block;
       height: 100px;
       width: 95%;
-      margin-bottom: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
       font-family: 'Libre Baskerville', serif;
       font-size: 30px;
       line-height: 100px;
