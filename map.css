@@ -59,9 +59,9 @@ h1, h3, p, a {
 .map-page {
   height: 650px;
   width: 100%;
-  background-image: url('images/stock-cabin.jpg');
-  background-size: 150%;
-  background-position: 50% 50%;
+  background-image: url('images/map-page.jpg');
+  background-size: 100%;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-repeat: no-repeat;

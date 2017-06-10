@@ -57,7 +57,6 @@ h1, h3, p, a {
         }
 
 .buy-page {
-  height: 1050px;
   width: 95%;
   margin: 0 2.5% 0 2.5%;
   padding: 5%;
@@ -95,16 +94,16 @@ h1, h3, p, a {
 
     #disclaimer {
       margin-bottom: 40px;
+      font-size: 18px;
     }
 
     #faq {
       margin-top: 80px;
+      text-decoration: underline;
     }
 
     .buy-page a {
-      text-decoration: none;
-      font-style: italic;
-      color: black;
+      color: blue;
       font-size: 17px;
     }
 

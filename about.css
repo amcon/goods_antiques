@@ -57,11 +57,11 @@ h1, h3, p, a {
         }
 
 .about-page {
-  height: 2900px;
+  height: 2800px;
   width: 100%;
-  background-image: url('images/stock-shed.jpg');
-  background-size: 150%;
-  background-position: 50% 50%;
+  background-image: url('images/about-page.jpg');
+  background-size: 100%;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -69,9 +69,8 @@ h1, h3, p, a {
 }
 
     .about {
-      height: 2700px;
-      width: 800px;
-      padding: 40px 40px;
+      width: 900px;
+      padding: 40px 60px;
       background-color: rgba(40, 40, 40, .7);
       border-radius: .5em;
       position: absolute;
@@ -83,6 +82,7 @@ h1, h3, p, a {
       justify-content: flex-start;
       align-items: flex-start;
       text-align: left;
+      box-sizing: border-box;
     }
 
         .about h1 {
@@ -96,12 +96,11 @@ h1, h3, p, a {
         .about p {
           color: white;
           font-family: 'Open Sans', sans-serif;
-          font-size: 20px;
+          font-size: 16px;
           line-height: 30px;
         }
 
     .family {
-      height: 1850px;
       width: 100%;
     }
 
@@ -114,12 +113,12 @@ h1, h3, p, a {
         }
 
         .family-left {
-          height: 300px;
           width: 100%;
           display: flex;
           flex-direction: row;
           justify-content: space-between;
-          align-items: flex-start;
+          align-items: center;
+          margin: 30px 0;
         }
 
             .family-left img {
@@ -128,10 +127,11 @@ h1, h3, p, a {
               border-radius: 100%;
               background-color: white;
               margin-top: 35px;
+              -webkit-filter: grayscale(100%);
+              filter: grayscale(100%);
             }
 
             .family-text {
-              height: 250px;
               width: 70%;
               display: flex;
               flex-direction: column;
@@ -152,12 +152,12 @@ h1, h3, p, a {
                 }
 
         .family-right {
-          height: 300px;
           width: 100%;
           display: flex;
           flex-direction: row;
           justify-content: space-between;
-          align-items: flex-start;
+          align-items: center;
+          margin: 30px 0;
         }
 
             .family-right img {
@@ -166,6 +166,8 @@ h1, h3, p, a {
               border-radius: 100%;
               background-color: white;
               margin-top: 35px;
+              -webkit-filter: grayscale(100%);
+              filter: grayscale(100%);
             }
 
 .footer {

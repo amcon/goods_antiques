@@ -57,11 +57,11 @@ h1, h3, p, a {
         }
 
 .home-page {
-  height: 650px;
+  height: 600px;
   width: 100%;
-  background-image: url('images/stock-antique.jpg');
-  background-size: 150%;
-  background-position: 50% 50%;
+  background-image: url('images/home-page.jpg');
+  background-size: 100%;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -69,7 +69,7 @@ h1, h3, p, a {
 }
 
     .visit {
-      height: 450px;
+      height: 500px;
       width: 500px;
       position: absolute;
       top: 50%;
@@ -77,11 +77,13 @@ h1, h3, p, a {
       transform: translate(-50%, -50%);
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
       text-align: center;
-      background-color: rgba(55, 55, 55, .4);
+      background-color: rgba(55, 55, 55, .5);
       border-radius: 2%;
+      box-sizing: border-box;
+      padding: 40px;
     }
 
         .visit h1 {
@@ -97,7 +99,6 @@ h1, h3, p, a {
           font-family: 'Open Sans', sans-serif;
           color: white;
           font-size: 22px;
-          margin: 5% 0 0 0;
           letter-spacing: 1px;
           line-height: 30px;
         }
@@ -109,7 +110,6 @@ h1, h3, p, a {
           height: 60px;
           width: 150px;
           font-family: 'Libre Baskerville', serif;
-          margin: 10% 0 0 0;
           font-size: 17px;
           letter-spacing: 2px;
           text-decoration: none;
@@ -119,7 +119,7 @@ h1, h3, p, a {
         .visit a:hover {
           background-color: rgba(255, 255, 255, .9);
           color: black;
-          border: 1px solid black;
+          border: none;
           cursor: pointer;
         }
 
