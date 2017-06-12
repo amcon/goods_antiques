@@ -89,6 +89,7 @@ h1, h2, h3, p, a {
           display: flex;
           justify-content: center;
           align-items: center;
+          text-align: center;
         }
 
         .gallery-nav p, .gallery-nav a {
@@ -174,6 +175,10 @@ h1, h2, h3, p, a {
                   font-size: 15px;
                   margin-top: -1%;
                   color: rgb(80, 80, 80);
+                }
+
+                .hidden {
+                  font-size: 0px;
                 }
 
 .gallery-modal {

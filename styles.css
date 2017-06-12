@@ -57,11 +57,11 @@ h1, h3, p, a {
         }
 
 .home-page {
-  height: 600px;
+  height: 650px;
   width: 100%;
-  background-image: url('images/home-page.jpg');
+  background-image: url('images/stock-adobe.jpeg');
   background-size: 100%;
-  background-position: bottom;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -114,6 +114,7 @@ h1, h3, p, a {
           letter-spacing: 2px;
           text-decoration: none;
           line-height: 60px;
+          box-sizing: border-box;
         }
 
         .visit a:hover {
