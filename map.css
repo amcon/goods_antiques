@@ -56,6 +56,10 @@ h1, h3, p, a {
           color: black;
         }
 
+        #selected {
+          color: black;
+        }
+
 .map-page {
   height: 650px;
   width: 100%;
