@@ -35,7 +35,7 @@ h1, h3, p, a {
 
     nav {
       height: 100%;
-      width: 40%;
+      width: 400px;
       float: right;
       display: flex;
       flex-direction: row;

@@ -37,7 +37,7 @@ h1, h2, h3, p, a {
 
     nav {
       height: 100%;
-      width: 40%;
+      width: 400px;
       float: right;
       display: flex;
       flex-direction: row;
@@ -97,7 +97,7 @@ h1, h2, h3, p, a {
           color: rgb(120, 120, 120);
           font-family: 'Open Sans', sans-serif;
           letter-spacing: 2px;
-          margin: 0 20px;
+          margin: 0 2%;
           font-size: 13px;
         }
 
@@ -125,7 +125,6 @@ h1, h2, h3, p, a {
     }
 
     .gallery-item {
-      height: 420px;
       width: 32%;
       background-color: white;
       display: flex;
@@ -144,18 +143,14 @@ h1, h2, h3, p, a {
         }
 
         .item-description {
-          height: 105px;
           width: 100%;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
+          margin-bottom: 20px;
         }
 
             .item-text {
               width: 100%;
-              height: 98%;
-              margin-top: 2%;
+              margin-top: 10px;
+              margin-bottom: 10px;
               display: flex;
               flex-direction: column;
               justify-content: flex-start;
@@ -167,6 +162,7 @@ h1, h2, h3, p, a {
                   font-size: 14px;
                   color: rgb(80, 80, 80);
                   margin-top: 1%;
+                  margin-bottom: 1%;
                   letter-spacing: 1px;
                 }
 
