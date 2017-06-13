@@ -406,6 +406,7 @@ and (orientation: portrait) {
 
 #mq-gallery-title {
   font-size: 50px;
+  margin-bottom: 60px;
 }
 
 .gallery-item {
@@ -497,6 +498,7 @@ and (orientation: portrait) {
 
 #mq-gallery-title {
   font-size: 50px;
+  margin-bottom: 60px;
 }
 
 .gallery-item {
@@ -587,6 +589,7 @@ and (orientation: portrait) {
 
 #mq-gallery-title {
   font-size: 50px;
+  margin-bottom: 60px;
 }
 
 .gallery-item {
