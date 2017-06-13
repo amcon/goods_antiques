@@ -1,7 +1,5 @@
 $(function() {
 
-  var primitve01Description = "";
-
  $('.gallery-item').click(function(event) {
     $('.modal-image').css('background-image', 'url("images/items/' + this.id + '.jpg")');
     $('.modal-title').text(this.lastElementChild.lastElementChild.firstElementChild.innerHTML);

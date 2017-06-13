@@ -387,3 +387,52 @@ and (max-device-width : 1050px) {
   }
 
 }
+
+
+@media only screen
+and (min-device-width : 1500px)
+and (max-device-width : 1700px) {
+
+  .map-page {
+    height: 800px;
+  }
+
+}
+
+@media only screen
+and (min-device-width : 1701px)
+and (max-device-width : 1950px) {
+
+  .map-page {
+    height: 1000px;
+  }
+
+  .contact {
+    height: 600px;
+    width: 1200px;
+  }
+
+  #map {
+    height: 500px;
+  }
+
+}
+
+@media only screen
+and (min-device-width : 1951px) {
+
+  .map-page {
+    height: 1200px;
+  }
+
+  .contact {
+    height: 750px;
+    width: 1500px;
+  }
+
+  #map {
+    height: 600px;
+  }
+
+}
+
