@@ -92,6 +92,10 @@ h1, h2, h3, p, a {
           text-align: center;
         }
 
+        .gallery-selected {
+          color: black;
+        }
+
         .gallery-nav p, .gallery-nav a {
           text-decoration: none;
           color: rgb(120, 120, 120);
@@ -99,10 +103,6 @@ h1, h2, h3, p, a {
           letter-spacing: 2px;
           margin: 0 2%;
           font-size: 13px;
-        }
-
-        #selected {
-          color: black;
         }
 
         .gallery-nav a:hover {

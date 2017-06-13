@@ -265,10 +265,10 @@ and (min-device-width : 1024px)
 and (max-device-width : 1366px)
 and (orientation: landscape) {
 
-/*#mq-about-page {
-  background-attachment: initial;
-  background-size: 310%;
-}*/
+#mq-about-page {
+/*  background-attachment: initial;*/
+  background-size: 120%;
+}
 
 }
 
