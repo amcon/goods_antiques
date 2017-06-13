@@ -232,6 +232,85 @@ h1, h3, p, a {
 
 
 
+@media only screen
+and (min-device-width : 1024px)
+and (max-device-width : 1366px)
+and (orientation: portrait) {
+
+#mq-about-page {
+  height: 3800px;
+  background-attachment: initial;
+  background-size: 580%;
+}
+
+#mq-h1 {
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#mq-p {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+#mq-h2 {
+  font-size: 25px;
+}
+
+}
+
+@media only screen
+and (min-device-width : 1024px)
+and (max-device-width : 1366px)
+and (orientation: landscape) {
+
+#mq-about-page {
+  background-attachment: initial;
+  background-size: 310%;
+}
+
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation: portrait) {
+
+#mq-about-page {
+  height: 3800px;
+  background-attachment: initial;
+  background-size: 580%;
+}
+
+#mq-h1 {
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#mq-p {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+#mq-h2 {
+  font-size: 25px;
+}
+
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation: landscape) {
+
+#mq-about-page {
+  background-size: 370%;
+  background-attachment: initial;
+}
+
+}
 
 
 @media only screen

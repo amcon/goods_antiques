@@ -199,8 +199,99 @@ h1, h3, p, a {
 
 
 
+@media only screen
+and (min-device-width : 1024px)
+and (max-device-width : 1366px)
+and (orientation: portrait) {
+
+.home-page {
+  background-size: 150%;
+  background-attachment: initial;
+  height: 1100px;
+}
+
+.visit {
+  height: 600px;
+  width: 600px;
+}
+
+.visit h1 {
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.visit p {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.visit a {
+  height: 80px;
+  width: 200px;
+  line-height: 80px;
+  font-size: 25px;
+}
+
+}
+
+@media only screen
+and (min-device-width : 1024px)
+and (max-device-width : 1366px)
+and (orientation: landscape) {
+
+.home-page {
+  height: 820px;
+  background-attachment: initial;
+}
+
+}
 
 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation: portrait) {
+
+.home-page {
+  background-size: 150%;
+  background-attachment: initial;
+  height: 1000px;
+}
+
+.visit {
+  height: 600px;
+  width: 600px;
+}
+
+.visit h1 {
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.visit p {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.visit a {
+  height: 80px;
+  width: 200px;
+  line-height: 80px;
+  font-size: 25px;
+}
+
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation: landscape) {
+
+  .home-page {
+    height: 750px;
+  }
+
+}
 
 
 @media only screen
