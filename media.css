@@ -1,0 +1,440 @@
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: portrait) {
+
+
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation: landscape) {
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: portrait) {
+
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation: landscape) {
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: portrait) {
+
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation: landscape) {
+
+}
+
+@media only screen and (max-width: 1050px) {
+
+  nav a {
+    font-size: 11px;
+  }
+
+  .gallery-nav a, .gallery-nav p {
+    font-size: 11px;
+  }
+
+  .gallery-page h1 {
+    font-size: 27px;
+  }
+
+  .item-text h2, .item-text h3 {
+    font-size: 13px;
+  }
+
+  .modal-text h1, .modal-text h2 {
+    font-size: 25px;
+  }
+
+  .modal-text p {
+    font-size: 13px;
+  }
+
+  .about-page {
+    height: 2500px;
+    background-size: 125%;
+  }
+
+  .about {
+    width: 800px;
+  }
+
+  .about h1 {
+    font-size: 35px;
+  }
+
+  .about h2 {
+    font-size: 18px;
+  }
+
+  .about p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .family-left img, .family-right img {
+    height: 180px;
+  }
+
+  .map-page {
+    background-size: 125%;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+
+  .gallery-nav a, .gallery-nav p {
+    font-size: 9px;
+  }
+
+  .gallery-page h1 {
+    font-size: 24px;
+  }
+
+  .item-text h2, .item-text h3 {
+    font-size: 11px;
+  }
+
+  .modal-box {
+    height: 350px;
+    width: 740px;
+  }
+
+  .modal-text h1, .modal-text h2 {
+    font-size: 20px;
+  }
+
+  .modal-text p {
+    font-size: 11px;
+  }
+
+  .home-page {
+    background-size: 125%;
+  }
+
+  .about-page {
+    height: 2200px;
+    background-size: 150%;
+  }
+
+  .about {
+    width: 700px;
+  }
+
+  .about h1 {
+    font-size: 30px;
+  }
+
+  .about h2 {
+    font-size: 16px;
+  }
+
+  .about p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .family-left img, .family-right img {
+    height: 150px;
+  }
+
+  .map-page {
+    background-size: 150%;
+  }
+
+  nav {
+    width: 45%;
+  }
+
+  .footer h3 {
+    font-size: 11px;
+  }
+
+  .footer p {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  nav {
+    width: 45%;
+  }
+
+  nav a {
+    font-size: 10px;
+  }
+
+  .home-page {
+    background-size: 150%;
+  }
+
+  .gallery-nav a, .gallery-nav p {
+    font-size: 7px;
+  }
+
+  .gallery-page h1 {
+    font-size: 22px;
+  }
+
+  .item-text h2, .item-tex h3 {
+    font-size: 9px;
+  }
+
+  .modal-box {
+    height: 280px;
+    width: 590px;
+  }
+
+  .modal-text h1, .modal-text h2 {
+    font-size: 17px;
+  }
+
+  .modal-text p {
+    font-size: 9px;
+  }
+
+  #back {
+    height: 15px;
+    width: 15px;
+  }
+
+  #back p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .purchase a {
+    height: 25px;
+    width: 50px;
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .about-page {
+    height: 1900px;
+    background-size: 175%;
+  }
+
+  .about {
+    width: 600px;
+  }
+
+  .about h1 {
+    font-size: 25px;
+  }
+
+  .family h1 {
+    margin-top: 80px;
+  }
+
+  .about h2 {
+    font-size: 14px;
+  }
+
+  .about p {
+    font-size: 10px;
+    line-height: 17px;
+  }
+
+  .family-left img, .family-right img {
+    height: 125px;
+  }
+
+  .map-page {
+    background-size: 175%;
+  }
+
+  .footer h3 {
+    font-size: 9px;
+  }
+
+  .footer p {
+    font-size: 7px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  nav {
+    width: 45%;
+  }
+
+  nav a {
+    font-size: 7px;
+  }
+
+  .home-page {
+    background-size: 225%;
+  }
+
+  .gallery-nav a, .gallery-nav p {
+    font-size: 5px;
+  }
+
+  .gallery-page h1 {
+    font-size: 18px;
+  }
+
+  .item-text h2, .item-text h3 {
+    font-size: 8px;
+  }
+
+  .modal-box {
+    height: 200px;
+    width: 420px;
+  }
+
+  .modal-text h1, .modal-text h2 {
+    font-size: 14px;
+  }
+
+  .modal-text p {
+    font-size: 7px;
+  }
+
+  #back {
+    height: 10px;
+    width: 10px;
+  }
+
+  #back p {
+    font-size: 5px;
+    line-height: 10px;
+  }
+
+  .purchase a {
+    height: 15px;
+    width: 30px;
+    font-size: 8px;
+    line-height: 15px;
+  }
+
+  .about-page {
+    height: 1600px;
+    background-size: 245%;
+  }
+
+  .about {
+    width: 500px;
+  }
+
+  .about h1 {
+    font-size: 20px;
+  }
+
+  .family h1 {
+    margin-top: 60px;
+  }
+
+  .about h2 {
+    font-size: 12px;
+  }
+
+  .about p {
+    font-size: 8px;
+    line-height: 13px;
+  }
+
+  .family-left img, .family-right img {
+    height: 100px;
+  }
+
+  .map-page {
+    background-size: 250%;
+  }
+
+  .footer h3 {
+    font-size: 7px;
+  }
+
+  .footer p {
+    font-size: 5px;
+  }
+
+  .header-logo {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+
+  nav {
+    width: 40%;
+  }
+
+  nav a {
+    font-size: 5px;
+  }
+
+  .about-page {
+    height: 1400px;
+    background-size: 285%;
+  }
+
+  .about {
+    width: 380px;
+  }
+
+  .about h1 {
+    font-size: 15px;
+  }
+
+  .family h1 {
+    margin-top: 40px;
+  }
+
+  .about h2 {
+    font-size: 10px;
+  }
+
+  .about p {
+    font-size: 6px;
+    line-height: 10px;
+  }
+
+  .family-left img, .family-right img {
+    height: 75px;
+  }
+
+  .gallery-page h1 {
+    font-size: 15px;
+  }
+
+  .item-text h2, .item-text h3 {
+    font-size: 7px;
+  }
+
+  .map-page {
+    background-size: 275%;
+  }
+
+  .footer p {
+    font-size: 3px;
+  }
+
+  .home-page {
+    background-size: 250%;
+  }
+}
+

@@ -127,7 +127,6 @@ h1, h3, p, a {
 
             .family-left img {
               height: 200px;
-              width: 25%;
               border-radius: 100%;
               background-color: white;
               margin-top: 35px;
@@ -166,7 +165,6 @@ h1, h3, p, a {
 
             .family-right img {
               height: 200px;
-              width: 25%;
               border-radius: 100%;
               background-color: white;
               margin-top: 35px;
@@ -241,22 +239,6 @@ and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: portrait) {
 
-.header {
-  height: 120px;
-}
-
-.header-logo {
-  width: 350px;
-}
-
-nav {
-  width: 50%;
-}
-
-nav a {
-  font-size: 18px;
-}
-
 .about-page {
   height: 3250px;
   background-attachment: initial;
@@ -297,22 +279,6 @@ nav a {
 
 .family-left img, .family-right img {
   height: 225px;
-}
-
-.footer {
-  height: 175px;
-}
-
-.footer-item {
-  width: 115px;
-}
-
-.footer h3 {
-  font-size: 14px;
-}
-
-.footer p {
-  font-size: 12px;
 }
 
 }
@@ -329,22 +295,6 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation: portrait) {
 
-.header {
-  height: 120px;
-}
-
-.header-logo {
-  width: 350px;
-}
-
-nav {
-  width: 50%;
-}
-
-nav a {
-  font-size: 18px;
-}
-
 .about-page {
   height: 3250px;
   background-attachment: initial;
@@ -385,22 +335,6 @@ nav a {
 
 .family-left img, .family-right img {
   height: 225px;
-}
-
-.footer {
-  height: 175px;
-}
-
-.footer-item {
-  width: 115px;
-}
-
-.footer h3 {
-  font-size: 14px;
-}
-
-.footer p {
-  font-size: 12px;
 }
 
 }
@@ -417,22 +351,6 @@ and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: portrait) {
 
-.header {
-  height: 120px;
-}
-
-.header-logo {
-  width: 350px;
-}
-
-nav {
-  width: 50%;
-}
-
-nav a {
-  font-size: 18px;
-}
-
 .about-page {
   height: 3250px;
   background-attachment: initial;
@@ -473,22 +391,6 @@ nav a {
 
 .family-left img, .family-right img {
   height: 225px;
-}
-
-.footer {
-  height: 175px;
-}
-
-.footer-item {
-  width: 115px;
-}
-
-.footer h3 {
-  font-size: 14px;
-}
-
-.footer p {
-  font-size: 12px;
 }
 
 }
