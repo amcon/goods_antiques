@@ -239,42 +239,44 @@ and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: portrait) {
 
-.about-page {
-  height: 3250px;
+#mq-about-page {
+  height: 3750px;
   background-attachment: initial;
-  background-size: 500%;
+  background-size: 600%;
 }
 
-.about {
+#mq-about {
   height: 100%;
-  width: 90%;
+  width: 100%;
   padding: 0 5%;
+  border-radius: 0;
 }
 
-.about h1 {
+#mq-h1 {
   font-size: 55px;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
-.about p {
+#mq-p {
   font-size: 25px;
+  line-height: 35px;
+}
+
+#mq-h2 {
+  font-size: 35px;
 }
 
 .family {
   height: 2000px;
 }
 
-.family h1 {
-  font-size: 55px;
-  margin: 100px 0 75px 0;
-}
-
-.family-text p {
-  font-size: 20px;
-}
-
 .family-left, .family-right {
-  height: 350px;
+  margin-bottom: 50px;
+}
+
+.family-text {
+  width: 75%;
 }
 
 .family-left img, .family-right img {
@@ -295,42 +297,44 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation: portrait) {
 
-.about-page {
-  height: 3250px;
+#mq-about-page {
+  height: 3750px;
   background-attachment: initial;
-  background-size: 500%;
+  background-size: 600%;
 }
 
-.about {
+#mq-about {
   height: 100%;
-  width: 90%;
+  width: 100%;
   padding: 0 5%;
+  border-radius: 0;
 }
 
-.about h1 {
+#mq-h1 {
   font-size: 55px;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
-.about p {
+#mq-p {
   font-size: 25px;
+  line-height: 35px;
+}
+
+#mq-h2 {
+  font-size: 35px;
 }
 
 .family {
   height: 2000px;
 }
 
-.family h1 {
-  font-size: 55px;
-  margin: 100px 0 75px 0;
-}
-
-.family-text p {
-  font-size: 20px;
-}
-
 .family-left, .family-right {
-  height: 350px;
+  margin-bottom: 50px;
+}
+
+.family-text {
+  width: 75%;
 }
 
 .family-left img, .family-right img {
@@ -351,42 +355,44 @@ and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: portrait) {
 
-.about-page {
-  height: 3250px;
+#mq-about-page {
+  height: 3750px;
   background-attachment: initial;
-  background-size: 500%;
+  background-size: 600%;
 }
 
-.about {
+#mq-about {
   height: 100%;
-  width: 90%;
+  width: 100%;
   padding: 0 5%;
+  border-radius: 0;
 }
 
-.about h1 {
+#mq-h1 {
   font-size: 55px;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
-.about p {
+#mq-p {
   font-size: 25px;
+  line-height: 35px;
+}
+
+#mq-h2 {
+  font-size: 35px;
 }
 
 .family {
   height: 2000px;
 }
 
-.family h1 {
-  font-size: 55px;
-  margin: 100px 0 75px 0;
-}
-
-.family-text p {
-  font-size: 20px;
-}
-
 .family-left, .family-right {
-  height: 350px;
+  margin-bottom: 50px;
+}
+
+.family-text {
+  width: 75%;
 }
 
 .family-left img, .family-right img {

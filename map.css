@@ -206,17 +206,17 @@ and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: portrait) {
 
-.map-page {
-  height: 1250px;
-  background-size: 200%;
+#mq-map-page {
+  height: 1400px;
+  background-size: 250%;
   background-attachment: initial;
 }
 
-.contact {
+#mq-contact {
   height: 100%;
   width: 100%;
   flex-direction: column-reverse;
-  justify-content: center;
+  justify-content: space-around;
   padding: 0;
 }
 
@@ -224,22 +224,32 @@ and (orientation: portrait) {
   height: 50%;
   width: 80%;
   border-right: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contact-text div {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .contact-text h1 {
-  font-size: 45px;
+  font-size: 55px;
 }
 
 .contact-text p {
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 30px;
+  line-height: 50px;
 }
 
 .contact-text button {
-  height: 60px;
-  width: 200px;
-  font-size: 18px;
+  height: 135px;
+  width: 250px;
+  font-size: 27px;
   margin: 20px 0 30px 0;
 }
 
@@ -263,17 +273,17 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation: portrait) {
 
-.map-page {
-  height: 1250px;
-  background-size: 200%;
+#mq-map-page {
+  height: 1400px;
+  background-size: 250%;
   background-attachment: initial;
 }
 
-.contact {
+#mq-contact {
   height: 100%;
   width: 100%;
   flex-direction: column-reverse;
-  justify-content: center;
+  justify-content: space-around;
   padding: 0;
 }
 
@@ -281,22 +291,32 @@ and (orientation: portrait) {
   height: 50%;
   width: 80%;
   border-right: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contact-text div {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .contact-text h1 {
-  font-size: 45px;
+  font-size: 55px;
 }
 
 .contact-text p {
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 30px;
+  line-height: 50px;
 }
 
 .contact-text button {
-  height: 60px;
-  width: 200px;
-  font-size: 18px;
+  height: 135px;
+  width: 250px;
+  font-size: 27px;
   margin: 20px 0 30px 0;
 }
 
@@ -320,17 +340,17 @@ and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: portrait) {
 
-.map-page {
-  height: 1250px;
-  background-size: 200%;
+#mq-map-page {
+  height: 1400px;
+  background-size: 250%;
   background-attachment: initial;
 }
 
-.contact {
+#mq-contact {
   height: 100%;
   width: 100%;
   flex-direction: column-reverse;
-  justify-content: center;
+  justify-content: space-around;
   padding: 0;
 }
 
@@ -338,22 +358,32 @@ and (orientation: portrait) {
   height: 50%;
   width: 80%;
   border-right: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contact-text div {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .contact-text h1 {
-  font-size: 45px;
+  font-size: 55px;
 }
 
 .contact-text p {
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 30px;
+  line-height: 50px;
 }
 
 .contact-text button {
-  height: 60px;
-  width: 200px;
-  font-size: 18px;
+  height: 135px;
+  width: 250px;
+  font-size: 27px;
   margin: 20px 0 30px 0;
 }
 

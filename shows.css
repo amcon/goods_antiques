@@ -243,11 +243,30 @@ and (orientation: portrait) {
 
 .shows-page {
   height: 1700px;
+  padding: 50px 0 50px 0;
 }
 
 .shows-container h1 {
-  margin-top: 100px;
+  margin-top: 0;
   margin-bottom: -50px;
+  font-size: 40px;
+}
+
+#mq-shows-title {
+  margin-bottom: -10px;
+}
+
+.show {
+  height: 350px;
+  width: 385px;
+}
+
+.show h2 {
+  margin-top: 0;
+}
+
+.past-show {
+  width: 265px;
 }
 
 }
@@ -266,11 +285,30 @@ and (orientation: portrait) {
 
 .shows-page {
   height: 1700px;
+  padding: 50px 0 50px 0;
 }
 
 .shows-container h1 {
-  margin-top: 100px;
+  margin-top: 0;
   margin-bottom: -50px;
+  font-size: 40px;
+}
+
+#mq-shows-title {
+  margin-bottom: -10px;
+}
+
+.show {
+  height: 350px;
+  width: 385px;
+}
+
+.show h2 {
+  margin-top: 0;
+}
+
+.past-show {
+  width: 265px;
 }
 
 }
@@ -289,11 +327,30 @@ and (orientation: portrait) {
 
 .shows-page {
   height: 1700px;
+  padding: 50px 0 50px 0;
 }
 
 .shows-container h1 {
-  margin-top: 100px;
+  margin-top: 0;
   margin-bottom: -50px;
+  font-size: 40px;
+}
+
+#mq-shows-title {
+  margin-bottom: -10px;
+}
+
+.show {
+  height: 350px;
+  width: 385px;
+}
+
+.show h2 {
+  margin-top: 0;
+}
+
+.past-show {
+  width: 265px;
 }
 
 }
