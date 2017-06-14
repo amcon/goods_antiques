@@ -300,7 +300,7 @@ and (max-device-width : 736px)
 and (orientation: portrait) {
 
 .home-page {
-  background-size: 205%;
+  background-size: 245%;
   background-attachment: initial;
   height: 1500px;
 }
@@ -342,7 +342,7 @@ and (max-device-width : 667px)
 and (orientation: portrait) {
 
 .home-page {
-  background-size: 205%;
+  background-size: 245%;
   background-attachment: initial;
   height: 1500px;
 }
@@ -384,7 +384,7 @@ and (max-device-width : 568px)
 and (orientation: portrait) {
 
 .home-page {
-  background-size: 205%;
+  background-size: 245%;
   background-attachment: initial;
   height: 1500px;
 }

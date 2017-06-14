@@ -369,6 +369,12 @@ and (min-device-width : 414px)
 and (max-device-width : 736px)
 and (orientation: landscape) {
 
+#mq-about-page {
+  height: 2450px;
+  background-attachment: initial;
+  background-size: 375%;
+}
+
 }
 
 @media only screen
@@ -427,6 +433,12 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation: landscape) {
 
+#mq-about-page {
+  height: 2450px;
+  background-attachment: initial;
+  background-size: 375%;
+}
+
 }
 
 @media only screen
@@ -484,5 +496,11 @@ and (orientation: portrait) {
 and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation: landscape) {
+
+#mq-about-page {
+  height: 2450px;
+  background-attachment: initial;
+  background-size: 375%;
+}
 
 }
