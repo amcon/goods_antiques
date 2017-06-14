@@ -96,12 +96,18 @@ h1, h2, h3, p, a {
           color: black;
         }
 
-        .gallery-nav p, .gallery-nav a {
+        .gallery-nav a {
           text-decoration: none;
           color: rgb(120, 120, 120);
           font-family: 'Open Sans', sans-serif;
           letter-spacing: 2px;
           margin: 0 2%;
+          font-size: 13px;
+        }
+
+        .gallery-nav p {
+          color: gold;
+          font-family: 'Open Sans', sans-serif;
           font-size: 13px;
         }
 
@@ -429,7 +435,7 @@ and (orientation: portrait) {
   }
 
 #mq-gallery-nav {
-  font-size: 13.4px;
+  font-size: 17.7px;
 }
 
 #mq-gallery-title {
@@ -525,7 +531,7 @@ and (orientation: portrait) {
   }
 
 #mq-gallery-nav {
-  font-size: 13.4px;
+  font-size: 17.7px;
 }
 
 #mq-gallery-title {
@@ -620,7 +626,7 @@ and (orientation: portrait) {
   }
 
 #mq-gallery-nav {
-  font-size: 13.4px;
+  font-size: 17.7px;
 }
 
 #mq-gallery-title {
