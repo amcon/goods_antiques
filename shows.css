@@ -259,6 +259,8 @@ and (orientation: portrait) {
 .show {
   height: 350px;
   width: 385px;
+  box-sizing: border-box;
+  padding-right: 60px;
 }
 
 .show h2 {
@@ -267,6 +269,8 @@ and (orientation: portrait) {
 
 .past-show {
   width: 265px;
+  box-sizing: border-box;
+  padding-right: 50px;
 }
 
 }
@@ -301,6 +305,8 @@ and (orientation: portrait) {
 .show {
   height: 350px;
   width: 385px;
+  box-sizing: border-box;
+  padding-right: 60px;
 }
 
 .show h2 {
@@ -309,6 +315,8 @@ and (orientation: portrait) {
 
 .past-show {
   width: 265px;
+  box-sizing: border-box;
+  padding-right: 50px;
 }
 
 }
@@ -343,6 +351,8 @@ and (orientation: portrait) {
 .show {
   height: 350px;
   width: 385px;
+  box-sizing: border-box;
+  padding-right: 60px;
 }
 
 .show h2 {
@@ -351,6 +361,8 @@ and (orientation: portrait) {
 
 .past-show {
   width: 265px;
+  box-sizing: border-box;
+  padding-right: 50px;
 }
 
 }
