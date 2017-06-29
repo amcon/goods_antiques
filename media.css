@@ -5,18 +5,23 @@ and (orientation: portrait) {
 
 .header {
   height: 150px;
+  margin-bottom: 100px;
 }
 
 .header-logo {
-  width: 400px;
+  width: 70%;
+  margin-left: 15%;
 }
 
 nav {
-  width: 400px;
+  width: 80%;
+  float: left;
+  margin-left: 10%;
+  height: 50%;
 }
 
 #mq-nav-a {
-  font-size: 15px;
+  font-size: 22px;
 }
 
 }
@@ -35,18 +40,23 @@ and (orientation: portrait) {
 
 .header {
   height: 150px;
+  margin-bottom: 100px;
 }
 
 .header-logo {
-  width: 400px;
+  width: 70%;
+  margin-left: 15%;
 }
 
 nav {
-  width: 400px;
+  width: 80%;
+  float: left;
+  margin-left: 10%;
+  height: 50%;
 }
 
 #mq-nav-a {
-  font-size: 15px;
+  font-size: 22px;
 }
 
 }
@@ -64,18 +74,23 @@ and (orientation: portrait) {
 
 .header {
   height: 150px;
+  margin-bottom: 100px;
 }
 
 .header-logo {
-  width: 400px;
+  width: 70%;
+  margin-left: 15%;
 }
 
 nav {
-  width: 425px;
+  width: 80%;
+  float: left;
+  margin-left: 10%;
+  height: 50%;
 }
 
 #mq-nav-a {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .footer {
@@ -137,18 +152,23 @@ and (orientation: portrait) {
 
 .header {
   height: 150px;
+  margin-bottom: 100px;
 }
 
 .header-logo {
-  width: 400px;
+  width: 70%;
+  margin-left: 15%;
 }
 
 nav {
-  width: 425px;
+  width: 80%;
+  float: left;
+  margin-left: 10%;
+  height: 50%;
 }
 
 #mq-nav-a {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .footer {
@@ -210,18 +230,23 @@ and (orientation: portrait) {
 
 .header {
   height: 150px;
+  margin-bottom: 100px;
 }
 
 .header-logo {
-  width: 400px;
+  width: 70%;
+  margin-left: 15%;
 }
 
 nav {
-  width: 425px;
+  width: 80%;
+  float: left;
+  margin-left: 10%;
+  height: 50%;
 }
 
 #mq-nav-a {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .footer {
